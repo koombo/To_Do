@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplikacja opracowana w ramach nauki Ruby na podstawie tutoriala dostępnego na stronie: https://deallen7.medium.com/how-to-build-a-todo-app-in-rails-e6571fcccac3
 
-Things you may want to cover:
+Dodano validację dla todo list (tittle oraz description) oraz napisano testy dla controllerów i modeli.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+W przyszłości planowana jest zmiana graficzna aplikacji oraz możliwość logowania użytkowników.
