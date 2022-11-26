@@ -6,7 +6,7 @@ class TodoListsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-    get todo_lists_url
+    get todo_lists_path
     assert_response :success
   end
 
@@ -43,6 +43,6 @@ class TodoListsControllerTest < ActionDispatch::IntegrationTest
       delete todo_list_url(@todo_list)
     end
 
-    assert_redirected_to todo_lists_url
+    assert_redirected_to root_url
   end
 end
